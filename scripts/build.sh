@@ -85,7 +85,7 @@ function docker_login() {
 
 function build_image() {
   BUILD_DIR="$(dirname "${file}")"
-  IMAGE_NAME="docker-toolbox-extended"
+  IMAGE_NAME="docker-toolbox-ansible"
   IMAGE_TAG="${IMAGE_BASE}/${IMAGE_NAME}"
   TAG_SUFFIX="${ORIGIN_IMAGE}-${ORIGIN_TAG}"
 
