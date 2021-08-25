@@ -4,6 +4,7 @@ FROM ${IMAGE_NAME}:${IMAGE_TAG}
 
 RUN set -eux \
   && apk add --update --no-cache \
+     openvpn \
      python3 \
      py3-pip \
      py3-cryptography \

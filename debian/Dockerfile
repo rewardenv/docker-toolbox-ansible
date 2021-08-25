@@ -4,6 +4,7 @@ FROM ${IMAGE_NAME}:${IMAGE_TAG}
 
 RUN set -eux \
   && apt-get update && apt-get install -y --no-install-recommends \
+     openvpn \
      python3 \
      python3-pip \
      python3-setuptools \
