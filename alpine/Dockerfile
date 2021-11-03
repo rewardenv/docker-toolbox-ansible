@@ -4,7 +4,6 @@ FROM ${IMAGE_NAME}:${IMAGE_TAG}
 
 RUN set -eux \
   && apk add --update --no-cache \
-     sudo \
      openvpn \
      python3 \
      py3-pip \
