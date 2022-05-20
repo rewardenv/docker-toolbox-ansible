@@ -8,6 +8,7 @@ RUN set -eux \
      python3 \
      python3-pip \
      python3-setuptools \
+     hcloud-python \
   && pip3 install --upgrade pip \
   && pip3 install --no-cache-dir \
      'ansible<2.11'
